@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test blip chat embed</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/blip-chat-widget" type="text/javascript"></script>
+    <script>
+      (function () {
+        window.onload = function () {
+          new BlipChat()
+            .withAppKey("YmxpcHRlc3Rhb3dkbm9hbnM6M2FiZjIwZTktZjM5Ni00NzE3LTgwYWItMDdhNDc2Y2NjMmRh")
+            .withButton({ color: "#0096fa", icon: "" })
+            .withCustomCommonUrl("https://danilo-ramin-l3opx.chat.blip.ai/")
+            .build();
+        };
+      })();
+    </script>
+  </body>
+</html>
